@@ -2,14 +2,13 @@ import { Container } from "reactstrap";
 
 const About = () => {
     document.title = "About"
+
     return (
         <Container>
             <div>
-                <div className="App">
-                    <header className="App-header">
-                        <h1>This is the about page</h1>
-                    </header>
-                </div>
+                <header>
+                    <h1>{document.title} Page</h1>
+                </header>
             </div>
         </Container>
     );

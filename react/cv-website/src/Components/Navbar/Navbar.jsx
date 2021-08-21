@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavItems } from "./NavItems.js";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     const [clicked, setClicked] = useState(false);
@@ -19,11 +19,11 @@ const Navbar = () => {
                 {NavItems.map((item, index) => {
                     return (
                         <li key={index}>
-                            <Link className ={item.cName} to={item.url}>{item.title}</Link>
+                            <Link className={item.cName} to={item.url}>{item.title}</Link>
                         </li>
                     )
                 })}
-            </ul>           
+            </ul>
         </nav>
     )
 
