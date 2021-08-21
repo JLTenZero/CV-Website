@@ -64,13 +64,14 @@ p {
   color: white;
   font-size: 3rem;
   justify-self: start;
-  margin-left: 2.5vw;
+  margin-left: 4vw;
   margin-bottom: 0.5rem;
   cursor: pointer;
+  text-decoration: none;
 }
 .navbar-title:hover {
   color: white;
-  text-shadow: -2px -2px 0 #025959, 2px -2px #025959, -2px 2px #025959, 2px 2px #025959;
+  text-shadow: -2px -2px 0 #D97236, 2px -2px #D97236, -2px 2px #D97236, 2px 2px #D97236;
   border-radius: 0.5px;
   transition: all 0.2s ease-out;
 }
@@ -78,11 +79,12 @@ p {
 .nav-links {
   color: white;
   padding: 0.5rem 1rem;
+  text-decoration: none;
 }
 
 .nav-links:hover {
   color: white;
-  background-color: #025959;
+  background-color: #D97236;
   border-radius: 5px;
   transition: all 0.2s ease-out;
 }
@@ -105,7 +107,7 @@ p {
   margin-right: 1rem;
 }
 
-@media screen and (max-width: 1635px) {
+@media screen and (max-width: 1000px) {
   .NavbarItems {
     position: relative;
   }
@@ -135,7 +137,7 @@ p {
     display: table;
   }
   .nav-links:hover {
-    background-color: #025959;
+    background-color: #D97236;
     border-radius: 0;
   }
   .navbar-title {
@@ -143,7 +145,6 @@ p {
     position: absolute;
     top: 0;
     left: 0;
-    transform: translate(20%, 10%);
   }
   .menu-icon {
     display: block;
