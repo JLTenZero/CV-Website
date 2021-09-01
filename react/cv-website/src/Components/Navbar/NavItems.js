@@ -6,8 +6,8 @@ export const NavItems = [
         cName: 'nav-links'
     },
     {
-        title: 'Placeholder',
-        url: '/placeholder',
+        title: 'WF',
+        url: '/wf',
         cName: 'nav-links'
     },
     {
