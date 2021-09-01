@@ -5,15 +5,23 @@ const Home = () => {
     return (
         <Container>
             <div>
-                <div className="App">
-                    <header className="App-header">
-                        <h1>This will be my website</h1>
-                        <p id="color1">Colour 1</p>
-                        <p id="color2">Colour 2</p>
-                        <p id="color3">Colour 3</p>
-                        <p id="color4">Colour 4</p>
-                        <p id="color5">Colour 5</p>
+                <div>
+                    <header>
+                        <h1>{document.title} Page</h1>
                     </header>
+                    <h2>The colour palette for the website:</h2>
+                    <div align="center">
+                        <h2>Primary</h2>
+                        <p id="color1">Colour 1</p>
+                        <h2>Secondary</h2>
+                        <p id="color2">Colour 2</p>
+                        <h2>Tertiary</h2>
+                        <p id="color3">Colour 3</p>
+                        <h2>Accents</h2>
+                        <p id="color4">Colour 4</p>
+                        <h2>???</h2>
+                        <p id="color5">Colour 5</p>
+                    </div>
                 </div>
             </div>
         </Container>

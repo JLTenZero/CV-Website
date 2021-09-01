@@ -1,13 +1,33 @@
 export const NavItems = [
 
     {
-        title: 'Home',
-        url: '/',
+        title: 'About',
+        url: '/about',
         cName: 'nav-links'
     },
     {
-        title: 'About',
-        url: '/about',
+        title: 'Placeholder',
+        url: '/placeholder',
+        cName: 'nav-links'
+    },
+    {
+        title: 'Placeholder',
+        url: '/placeholder',
+        cName: 'nav-links'
+    },
+    {
+        title: 'Placeholder',
+        url: '/placeholder',
+        cName: 'nav-links'
+    },
+    {
+        title: 'Placeholder',
+        url: '/placeholder',
+        cName: 'nav-links'
+    },
+    {
+        title: 'Placeholder',
+        url: '/placeholder',
         cName: 'nav-links'
     }
 ]
